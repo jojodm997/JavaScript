@@ -1,5 +1,5 @@
 let x = (100 + 50) * 75;
-// 100 ditambah lima terlebih dahulu baru dikalikan 75, jikalau hirarki perhitungan nya sama misalkan / dan * maka akan dari kiri terlebiih dahulu
+// 100 ditambah lima terlebih dahulu baru dikalikan 75, jikalau hirarki perhitungan nya sama misalkan / dan * maka akan dari kiri terlebih dahulu
 
 a = 4;
 b = 50;
@@ -31,4 +31,4 @@ let addition = "+",
   decrement = "--",
   exponen = "**",
   decimals = "3.14";
-document.getElementById("demo").innerHTML = r;
+// document.getElementById("demo").innerHTML = r;

@@ -14,4 +14,8 @@ let t = new Number(123); // Number as an object
 // == are equal
 // === are not equal
 
-document.getElementById("demo").innerHTML = u == t;
+// document.getElementById("demo").innerHTML = u == t;
+
+let n = (4 + 6 + 9) / 77;
+
+document.getElementById("demo").innerHTML = n;

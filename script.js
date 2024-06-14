@@ -12,7 +12,7 @@ let message = "Hi",
 
 alert(user);
 alert(message);
-alert($ + _ + apple - APPLE);
+alert($ + _ + apple - APPLE); // We can calculate different things
 
 const birthday = "18.09.2004";
 birthday = "18.23.2004"; // you cannot reassign variable in const

@@ -22,6 +22,9 @@ let h = "The resullt is: " + a + b; // why 450? it because has string in it so i
 
 let r = a + b + u; //this have string in the back so 4+50 = 54 + 30(string) = 5430
 
+let myString = "123";
+let myNum = Number(myString); // This number function convert anything into Number
+
 let addition = "+",
   subtraction = "-",
   multiplication = "*",

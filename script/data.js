@@ -9,6 +9,10 @@ let hel = "Single quotes are ok too"; // this supposed to be single quotes but p
 let phrase = `can embed another ${str} ${1 + 2}`;
 let joined = `${str} ${hel}`;
 
+let greeting = "Hello";
+let name = "fauzan";
+// console.log(greeting + ", " + name)
+
 let nameFieldChecked = true;
 let ageFieldChecked = false;
 
@@ -27,6 +31,16 @@ typeof Symbol("id"); // symbol
 typeof Math; // Object
 typeof alert;
 
-let name = "fauzan";
+const song = "DefJam Fight For NewYork";
+const score = 9;
+const higherScore = 10;
+const output = `I like the song ${song}. i give it a sccore of ${
+  (score / higherScore) * 100
+}%.`;
 
-document.getElementById("demo").innerHTML = joined;
+const newline = `One day you will be 
+a man that important to this word`; // Newline you can use \n in the middle if you want to
+
+const goodQuotes = `Let the dogs bark, Sancho. It is a sign that we're “moving forward,” `; // question mark
+
+document.getElementById("demo").innerHTML = goodQuotes;

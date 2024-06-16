@@ -31,4 +31,12 @@ let addition = "+",
   decrement = "--",
   exponen = "**",
   decimals = "3.14";
-// document.getElementById("demo").innerHTML = r;
+
+let a = 23 + 97 + 32 + 42 + 312 + 412;
+let k = (4 + 6 + 9) / 77;
+let u = 10;
+const MAX = 57;
+let actual = MAX - 13;
+let percentage = actual / MAX;
+
+document.getElementById("demo").innerHTML = percentage;

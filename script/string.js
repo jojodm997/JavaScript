@@ -21,4 +21,28 @@ let parts = str.substring(-4); // Same as slice but second parameter specifies t
 let yaxy = text.toUpperCase();
 let yaxxy = text.toLowerCase();
 
-document.getElementById("demo").innerHTML = yaxy;
+let ty = "Hello";
+let yt = "World";
+let yty = ty.concat("", yt);
+// or
+let text1 = "Hello" + "" + "World";
+
+let tex = "   Hello world   ";
+let texx = tex.trim(); // trim remove whitepsace from both side of string
+let tyt = tex.trimStart(); // Remove from start only
+let ere = text.trimEnd(); // Remove from end only
+
+let tyrex = "5";
+let padded = tyrex.padStart(4, "0");
+let paddedd = tyrex.padEnd(4, "x"); // padStart() and padEnd() to support padding at the beginning and at the end of a string.
+
+let das = "Hello world";
+let dasd = das.repeat(2); // Method returns a string with a number of copies of a string
+
+let dsad = "Please buy a coffee";
+let newText = dsad.replace("Coffee", "Tea"); // replace coffee to tea
+let newText1 = dsad.replaceAll("Coffee", "Gogo"); // Replace regukar expression (idk what that is)
+
+text.split(","); // Split commas
+
+document.getElementById("demo").innerHTML = newText;

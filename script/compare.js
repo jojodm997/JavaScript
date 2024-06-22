@@ -1,4 +1,4 @@
-let comp = 5 > 4, // Greater than you can use >=
+let comp = 5 > 4, // Greater than you can use for equal >=
   compp = 4 < 5, // Less than tou can use <=
   comps = 5 == 5, // Equal
   compx = 5 != 4; // Not Equal
@@ -25,7 +25,67 @@ if (time < 10) {
 } else if (time < 20) {
   gretting = "Good day"; // Good day is the time less than 20.00
 } else {
-  greeting = "Good evening"; // otherwise Good evening
+  gretting = "Good evening"; // otherwise Good evening
+}
+
+if (browser == edge) {
+  alert("You got the edge");
+} else if (browser == chrome || Firefox || Safari || Opera) {
+  alert("we support these browser too");
+} else {
+  alert("We hope that this page looks ok");
+}
+
+let or = a || b; // OR ||
+
+let hour = 12;
+let isWeekend = true;
+if (hour < 10 || hour > 18 || isWeekend) {
+  alert("The office are closed");
+}
+
+let and = a && b; // AND &&
+
+let hours = 12;
+let minute = 30;
+
+if (hour == 12 && minute == 30) {
+  alert("this time is 12.30");
+}
+
+let result = !value; // NOT !
+alert(!true); // False
+alert(!0); // True
+
+let a = 2 + 2;
+
+switch (a) {
+  case 3:
+    alert("too small");
+    break;
+  case 4:
+    alert("exactly");
+    break;
+  case 5:
+    alert("too big");
+    break;
+  case 6:
+    alert("Hmmm");
+  default:
+    alert("I don't know such values");
+}
+
+let d = +prompt("d?", "");
+switch (d) {
+  case 0:
+    alert(0);
+    break;
+  case 1:
+    alert(1);
+    break;
+  case 2:
+  case 3:
+    alert("2,3");
 }
 
 document.getElementById("demo").innerHTML = word;

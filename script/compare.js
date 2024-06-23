@@ -52,16 +52,33 @@ if (age > 18) {
 } else {
   accessAllowed = false;
 }
-let accessAlloweds = (age > 18) ? true : false;
+let accessAlloweds = age > 18 ? true : false;
 
-let aged = prompt('age?',18)
-let message = (age < 3) ? 'Hi, baby!':
-(age < 18) ? 'Hello!':
-(age < 100) ? 'Greetings' :
-'What an unsual age!';
-alert(message);
+let aged = prompt("age?", 18);
+let message =
+  age < 3
+    ? "Hi, baby!"
+    : age < 18
+    ? "Hello!"
+    : age < 100
+    ? "Greetings"
+    : "What an unsual age!";
+alert(message); // Not readble
 
+if (age > 3) {
+  message = "Hi baby";
+} else if (age < 18) {
+  message = "Hello";
+} else if (age < 100) {
+  message = "Greetings";
+} else {
+  message = "what an unsual age";
+}
 
+let company = prompt("Which company created javascript");
+
+// (company == "Netscape") ?
+// alert("right") : alert("wrong"); // Use () for ternary ? operator more readble like this one
 
 let or = a || b; // OR ||
 

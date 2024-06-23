@@ -52,7 +52,16 @@ if (age > 18) {
 } else {
   accessAllowed = false;
 }
-let accessAlloweds = age > 18 ? true : false;
+let accessAlloweds = (age > 18) ? true : false;
+
+let aged = prompt('age?',18)
+let message = (age < 3) ? 'Hi, baby!':
+(age < 18) ? 'Hello!':
+(age < 100) ? 'Greetings' :
+'What an unsual age!';
+alert(message);
+
+
 
 let or = a || b; // OR ||
 

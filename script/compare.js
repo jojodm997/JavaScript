@@ -45,6 +45,24 @@ if (year < 2015) {
   alert("You're right");
 }
 
+let accessAllowed;
+let age = prompt("How old are you", "");
+if (age > 18) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
+}
+let accessAlloweds = (age > 18) ? true : false;
+
+let aged = prompt('age?',18)
+let message = (age < 3) ? 'Hi, baby!':
+(age < 18) ? 'Hello!':
+(age < 100) ? 'Greetings' :
+'What an unsual age!';
+alert(message);
+
+
+
 let or = a || b; // OR ||
 
 let hour = 12;

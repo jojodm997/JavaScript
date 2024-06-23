@@ -18,7 +18,7 @@ let ageFieldChecked = false;
 
 let isGreater = 4 > 1; // yes
 
-let universe = null; // Nothing
+let someUniverse = null; // Nothing
 
 let atom = 100;
 atom = undefined; // Undefined

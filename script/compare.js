@@ -36,6 +36,15 @@ if (browser == edge) {
   alert("We hope that this page looks ok");
 }
 
+let year = prompt("Which year ECMAScript-2015 spesification published?");
+if (year < 2015) {
+  alert("Too early");
+} else if (year > 2015) {
+  alert("Too late");
+} else {
+  alert("You're right");
+}
+
 let or = a || b; // OR ||
 
 let hour = 12;
@@ -48,7 +57,6 @@ let and = a && b; // AND &&
 
 let hours = 12;
 let minute = 30;
-
 if (hour == 12 && minute == 30) {
   alert("this time is 12.30");
 }
@@ -88,4 +96,4 @@ switch (d) {
     alert("2,3");
 }
 
-document.getElementById("demo").innerHTML = word;
+document.getElementById("demo").innerHTML = year;

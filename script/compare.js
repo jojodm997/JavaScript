@@ -1,5 +1,6 @@
-let comp = 5 > 4, // Greater than you can use for equal >=
-  compp = 4 < 5, // Less than tou can use <=
+let comp = 5 > 4, // Greater than
+  compp = 5 >= 4, // Greter than and equal if 5 >= 5 this returns true
+  comxx = 4 <= 5, // Less than and equal if 5 <= 5 this returns true
   comps = 5 == 5, // Equal
   compx = 5 != 4; // Not Equal
 

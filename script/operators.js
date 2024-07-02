@@ -53,7 +53,7 @@ let i = (1 + 2, 3 + 4);
 alert(i); // 7 (the result of 3+4)
 
 let counterr = 1;
-let k = ++counterr;
+let koko = ++counterr;
 
 let counterrr = 1;
 let dod = 2 * counterrr++; // 2

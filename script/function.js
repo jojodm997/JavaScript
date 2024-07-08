@@ -1,7 +1,3 @@
-// example
-let ourPlanet = "Earth";
-let currentUserName = "John";
-
 // Manipulated string
 const myText = "I am a string";
 const newString = myText.replace("String", "Sausage");

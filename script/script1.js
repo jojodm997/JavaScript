@@ -7,3 +7,7 @@ alert(admin);
 
 // let name, admin;
 // (name = "john"), (admin = name), alert(admin);
+
+// example
+let ourPlanet = "Earth";
+let currentUserName = "John";

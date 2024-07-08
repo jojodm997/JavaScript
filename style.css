@@ -10,8 +10,9 @@ h1 {
 }
 
 .dilanda {
+  color: red;
   font-size: 18px;
-  font-weight: 0;
+  font-weight: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,4 +40,12 @@ h1 {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+}
+
+.input {
+  padding: 20px;
+  margin: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,8 +1,10 @@
-const birthYear = 2006;
-const thisYear = 2024;
-const age = thisYear - birthYear;
-const firstName = " Fauzan ";
-const lastName = "Mulyono ";
-const fullName = firstName + lastName;
+const birthYear = 1947;
+const thisYear = 1965;
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const fullName = (firstName + ' ' + lastName);
+const age = (thisYear - birthYear);
 
-greeting = "Hello My Name is" + fullName + "and I am " + age + " Years old";
+const greeting = "Hello! My name is" + ' ' + fullName + ' ' + "and I am" + ' ' + age + ' ' + "years old.";
+
+console.log(greeting)

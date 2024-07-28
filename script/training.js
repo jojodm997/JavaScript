@@ -1,12 +1,12 @@
-// names = prompt("What is the official name of JavaScript");
+let names = prompt("What is the official name of JavaScript");
 
-// if (names == "ecmascript") {
-//   alert("right");
-// } else {
-//   alert("You dont know ecmascript?");
-// }
+if (names == "ecmascript") {
+  alert("right");
+} else {
+  alert("You dont know ecmascript?");
+}
 
-numbers = prompt("Get a number", 0);
+let numbers = prompt("Get a number", 0);
 if (numbers > 0) {
   alert(1);
 } else if (numbers < 0) {

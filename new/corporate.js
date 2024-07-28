@@ -1,5 +1,5 @@
 let message =
-  login == "Emplyee"
+  login == "Employee"
     ? "Hello"
     : login == "Director"
     ? "Greetings"
@@ -7,17 +7,19 @@ let message =
     ? "No login"
     : "";
 
-if (browser == "edge") {
-  alert("You.ve got the Edge!");
-} else if (
-  browser == "chrome" ||
-  browser == "firefox" ||
-  browser == "Safari" ||
-  browser == "opera"
-) {
-  alert("Okay we suporrt these browser to");
-} else {
-  alert("We dont support that browser");
+function browser {
+ if (browser == "edge") {
+    alert("You.ve got the Edge!");
+ } else if (
+    browser == "chrome" ||
+    browser == "firefox" ||
+    browser == "Safari" ||
+    browser == "opera"
+ ) {
+    alert("Okay we suporrt these browser to");
+ } else {
+    alert("We dont support that browser");
+ }
 }
 
 let a = +prompt("a", "");

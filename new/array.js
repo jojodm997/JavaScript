@@ -42,7 +42,7 @@ const mobilePhone = ["Samsung", "Nokia", "Iphone", "Xiaomi"];
 mobilePhone.shift(); // Nokia,Iphone,Xiaomi
 let phone = mobilePhone.shift(); // return the value "Samsung"
 mobilePhone.unshift("Infinix"); // Infinix,Samsung,Nokia,Iphone,Xiaomi
-mobilePhone.splice(2, 0, "Motorolla", "Poco"); // Add Motorolla and Poco to the index 2 abd 0 remove so it would be Samsung,Nokia,Iphone,Motorolla,Poco,Xiaomi you can change the 0.
+mobilePhone.splice(2, 0, "Motorolla", "Poco"); // Add Motorolla and Poco to the index 2 and 0 remove so it would be Samsung,Nokia,Iphone,Motorolla,Poco,Xiaomi you can change the 0.
 mobilePhone.splice(0, 1); // Delete the index 0 of array
 const splice = mobilePhone.toSpliced(0, 1); // This create new array so the old ones remain unchanged
 

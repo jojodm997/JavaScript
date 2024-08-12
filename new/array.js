@@ -49,7 +49,7 @@ const splice = mobilePhone.toSpliced(0, 1); // This create new array so the old 
 const myStuff = drinks.concat(fruits); // concat two variable drinks and fruits
 const allMyStuff = car.concat(fruits, drink); // concat three array
 
-const myArr = [[1,2], [3,4], [5,6]]; // Nested array
+const myArray = [[1,2], [3,4], [5,6]]; // Nested array
 myArray.flat(); // 1,2,3,4,5,6
 myArray.flatMap(x => [x, x * 10]); // 1,10,2,20,3,30,4,40,5,50,6,60
 

@@ -31,3 +31,16 @@ divs.textContent = "ME TOO!";
 contentd.appendChild(divs);
 
 container.appendChild(contentd);
+
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello world");
+
+const btns = document.querySelector("#btns");
+btns.addEventListener("click", () => {
+  alert("Hello world");
+});
+
+const bt = document.querySelector("#btne");
+bt.addEventListener("click", function(e) {
+  e.target.style.background = "blue"; // alert function to addEventListener as an argument, this is callback
+}); 

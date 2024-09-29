@@ -40,5 +40,42 @@ for (let i = 0; i < 10; i++) {
   console.log(i); // 1, then 3, 5, 7, 9
 }
 
+for (let i = 1; i <= 4; i++) {
+}
+//console.log(i);
 
 
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+console.log(sum(1, 4));
+
+let i = 0;
+while (i < 3) {
+  console.log(`number ${i}!`);
+  i++;
+}
+
+let n = 10;
+
+nextPrime:
+for (let i = 2; i <= n; i++) {
+
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) continue nextPrime;
+  }
+  console.log(i);
+}
+
+for (let i = 0; i < 100; i++) {
+  let io = prompt("Input a number");
+  if (io > 100) break;
+alert(io);
+}
+
+for (let i = 2; i <= 10; i++) {
+  if(i % 2 == 0) {
+    console.log(i);
+  } 
+}

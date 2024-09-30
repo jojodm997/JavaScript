@@ -1,3 +1,20 @@
+const textBox = document.querySelector("#textBox");
+const output = document.querySelector("#output");
+
+textBox.addEventListener("keydown", (event) => {
+  output.textContent = `You pressed "${event.key}".`;
+});
+
+const button = document.querySelector("button");
+
+function great() {
+  const name = prompt("what is your name?");
+  const greeting = document.querySelector("#greeting");
+  greeting.textContent = `Hello ${name}, nice to see you`;
+}
+
+button.addEventListener("click", great);
+
 // Manipulated string
 const myText = "I am a string";
 const newString = myText.replace("String", "Sausage");

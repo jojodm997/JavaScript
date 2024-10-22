@@ -46,7 +46,6 @@ for (let i = 1; i <= 100; i++) {
   } else {
     console.log(i);
   }
-  
 }
 
 function add7 (num, sev = 7) {

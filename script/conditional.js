@@ -7,11 +7,11 @@ let message =
     ? "No login"
     : "";
 
-function browser {
+function browser() {
  if (browser == "edge") {
     alert("You.ve got the Edge!");
  } else if (
-    browser == "chrome" 
+    browser == "chrome" || 
     browser == "firefox" ||
     browser == "Safari" ||
     browser == "opera"
@@ -36,7 +36,7 @@ switch (a) {
 }
 
 function getComputerChoice() {
-   const random = Math.floor(Math.random() * 3)
+  const random = Math.floor(Math.random() * 3)
   switch(random) {
     case 0:
       console.log("Rock");
@@ -81,8 +81,8 @@ if ((hour == 13 && minute == 31) || (hour == 12 && minute == 30)) {
 
 let result = a + b < 4 ? "Below" : "over";
 
-let numb = Number(prompt("Type a number"));
-switch (numb) {
+let numbb = Number(prompt("Type a number"));
+switch (numbb) {
   case 1:
     alert("Too small");
     break;

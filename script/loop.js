@@ -4,13 +4,13 @@ while(i < 3) { // 0 1 2 (counts from zero)
   i++;
 } 
 
-let i 0;
-do (
-  console.log(i);
+let a = 0;
+do {
+  console.log(a);
   i++;
-) while (i < 3); // 0 1 2
+} while (i < 3); // 0 1 2
 
-for (let i = 0; i < 3; i++;) // 0 1 2 let are inline variable
+for (let i = 0; i < 3; i++) // 0 1 2 let are inline variable
 console.log(i);
 
 let sum = 0;
@@ -35,23 +35,23 @@ const upperCats = cats.map(toUpper);// all of them will be uppercase LEOPARD AND
 const filtered = cats.filter((cat) => cat.startsWith("L"));
 console.log(filtered); // ["Leopard", "Lion"]
 
-for (const cat for cats) {
+for (const cat of cats) {
   console.log(cat); // will print Leopard, Serval and so on
 }
 
-let i = 0;
-while(i < 3) { // 0 1 2 (counts from zero)
-  console.log(i);
-  i++;
+let p = 0;
+while(p < 3) { // 0 1 2 (counts from zero)
+  console.log(p);
+  p++;
 } 
 
-let i = 0;
-do (
-  console.log(i);
-  i++;
-) while (i < 3); // 0 1 2
+let k = 0;
+do {
+  console.log(k);
+  k++;
+} while (k < 3); // 0 1 2
 
-for (let i = 0; i < 3; i++;) // 0 1 2 let are inline variable
+for (let i = 0; i < 3; i++) // 0 1 2 let are inline variable
 console.log(i);
 
 let sum = 0;
@@ -72,17 +72,16 @@ for (let i = 1; i <= 4; i++) {
 }
 //console.log(i);
 
-
 function sum(num1, num2) {
   return num1 + num2;
 }
 
 console.log(sum(1, 4));
 
-let i = 0;
+let o = 0;
 while (i < 3) {
-  console.log(`number ${i}!`);
-  i++;
+  console.log(`number ${o}!`);
+  o++;
 }
 
 let n = 10;

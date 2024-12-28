@@ -13,7 +13,7 @@ const carss = [
 let carsss = carss[0]; // Acces the Buggati
 let car = carss[carss.length - 1]; // Access the BMW
 
-const car = [];
+const cars = [];
 cars[0]= "Saab";
 cars[1]= "Volvo";
 cars[2]= "BMW";
@@ -52,9 +52,3 @@ const allMyStuff = car.concat(fruits, drink); // concat three array
 const myArray = [[1,2], [3,4], [5,6]]; // Nested array
 myArray.flat(); // 1,2,3,4,5,6
 myArray.flatMap(x => [x, x * 10]); // 1,10,2,20,3,30,4,40,5,50,6,60
-
-
-
-
-
-

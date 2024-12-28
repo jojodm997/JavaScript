@@ -60,22 +60,22 @@ function multiply (num1, num2){
   return num1 * num2;
 }
 
-const result = multiply(2,2);
-console.log(result)
+const results = multiply(2,2);
+console.log(results)
 
 function capitalize (text){
   return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
 }
 
-const result = capitalize("HELLO WORLD");
-console.log(result)
+const resultt = capitalize("HELLO WORLD");
+console.log(resultt)
 
 function lastLetter (text) {
   return text.charAt(text.length - 1);
 }
 
-const result = lastLetter("Hello world");
-console.log(result);
+const resulttt = lastLetter("Hello world");
+console.log(resulttt);
 
 function checkAge(age) {
   return age > 18 ? true : confirm('Did your parents allow you in?');

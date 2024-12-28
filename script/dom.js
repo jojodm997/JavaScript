@@ -57,9 +57,6 @@ const originals = [1, 2, 3];
 const doubled = originals.map((item) => item * 2);
 console.log(doubled); // Double every value using original array
 
-const textBox = document.querySelector("#textBox");
-const output = document.querySelector("#output");
-
 textBox.addEventListener("keydown", (event) => {
   output.textContent = `You pressed "${event.key}"`;
 }); // Arrow function instead of function(event) you write (event) =>

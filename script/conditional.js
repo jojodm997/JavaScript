@@ -95,3 +95,16 @@ switch (numbb) {
   default:
     alert("IDK WHAT NUMBER IS !");
 }
+
+// Guard clause 
+function getDiscount(user) {
+  if (!user.isActive) {
+    return `User ${user.name} is inactive.`;
+  }
+
+  if (!user.hasDiscount) {
+    return `${user.name} does not qualify for a discount.`;
+  }
+
+  return `Discount applied for ${user.name}!`;
+}

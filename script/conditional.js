@@ -108,3 +108,41 @@ function getDiscount(user) {
 
   return `Discount applied for ${user.name}!`;
 }
+
+const user = {
+  name: 'John',
+  address: {
+    city: 'New York'
+  }
+};
+
+// Without Optional Chaining
+const city = user && user.address ? user.address.city : undefined;
+
+// With Optional Chaining
+const city = user?.address?.city;
+
+console.log(city); // 'New York'
+
+const input = 0;
+
+// Using OR (||)
+const value = input || 10; // 10 (undesirable)
+
+// Using Nullish Coalescing (??)
+const value = input ?? 10; // 0 (desirable)
+
+console.log(value);
+
+let user = {
+  isLoggedIn: false,
+  preferences: null
+};
+
+// Using Logical Assignment Operators
+user.isLoggedIn ||= true; // Sets to true if false or undefined
+user.preferences ??= { theme: 'dark' }; // Sets if null or undefined
+
+console.log(user);
+// { isLoggedIn: true, preferences: { theme: 'dark' } }
+

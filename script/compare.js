@@ -29,9 +29,9 @@ if (time < 10) {
   gretting = "Good evening"; // otherwise Good evening
 }
 
-if (browser == edge) {
+if (browser == "edge") {
   alert("You got the edge");
-} else if (browser == chrome || Firefox || Safari || Opera) {
+} else if (browser == "chrome" || "Firefox" || "Safari" || "Opera") {
   alert("we support these browser too");
 } else {
   alert("We hope that this page looks ok");

@@ -52,3 +52,8 @@ const allMyStuff = car.concat(fruits, drink); // concat three array
 const myArray = [[1,2], [3,4], [5,6]]; // Nested array
 myArray.flat(); // 1,2,3,4,5,6
 myArray.flatMap(x => [x, x * 10]); // 1,10,2,20,3,30,4,40,5,50,6,60
+
+array = [1, 2, 3, 4]
+rest = [7, 2]
+
+let result = array.filter(x => !rest.includes(x)); // [1, 3, 4] 

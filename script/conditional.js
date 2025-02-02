@@ -14,8 +14,8 @@ function browser() {
     browser == "chrome" || 
     browser == "firefox" ||
     browser == "Safari" ||
-    browser == "opera"
- ) {
+    browser == "opera" ) 
+ {
     alert("Okay we suporrt these browser to");
  } else {
     alert("We dont support that browser");
